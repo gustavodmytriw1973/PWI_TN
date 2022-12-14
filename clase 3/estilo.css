@@ -1,3 +1,10 @@
+body{
+
+    background-image: url(../CLASE2/imagenes/new-york-3602857_960_720.jpg);
+}
+
+
+
 h1{
 
     color: red;
@@ -15,4 +22,11 @@ p{ color: green;
 #unTexto{
 
     background-color: yellow;
+}
+img{
+
+    background-image: url(../CLASE2/imagenes/new-york-3602857_960_720.jpg
+    );
+    
+    
 }
