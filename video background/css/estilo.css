@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.video-background{
+    position: fixed;
+   bottom:  10%;
+    right: 0;
+    width: 100%;
+    z-index: -15;
+
+}
+h1{
+position: absolute;
+color: white;
+letter-spacing: 3px;
+bottom: 1%;
+left: 20%;
+font size:  36px;
+}
+
+p{ color: white;
+    
+
+
+}
