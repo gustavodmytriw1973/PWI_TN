@@ -1,0 +1,19 @@
+div{
+    background-color: aqua;
+    }
+    @media (min-width:600px){
+        div{
+            background-color: red;
+        } }
+    
+
+    @media(orientation:landscape){
+        div{
+            background-color:yellow;
+        }
+    }
+    @media(orientation:portrait){
+        div{
+            background-color: brown;
+        }
+    }

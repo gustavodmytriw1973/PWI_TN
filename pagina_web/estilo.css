@@ -1,0 +1,140 @@
+*{margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav >a{
+    margin-left: 30px;
+}
+
+.hamburguesa{
+    color: #000;
+    display: none;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+    
+@media(max-width: 550px){
+    nav,div{
+    display: none;
+}
+ .hamburguesa{
+display: block;
+}
+}
+.aboutImagen{
+    width: 30%;
+}
+.contenedorImg{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+}
+.contenedorHero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+   height: 100vh;
+   background: url(./david-cerini-9-VLuiz-X4A-unsplash.jpg);
+
+}
+.tituloHero{
+
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+.textoHero{
+    font-size: 1rem;
+    color: white;
+    max-width: 50%;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+button{
+    padding: 0.9rem 1.6rem;
+    border: 1px solid white;
+    text-transform: uppercase;
+    color: green;
+    font-size: 1,26rem;
+    cursor: pointer;
+}
+.btnAbout{
+    background-color: #2eabbb;
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    border: 1px solid #2eabbb;
+}
+.textoPrincipal{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px 0;
+    letter-spacing: 0.5rem;
+}
+span{
+    color: #2eabbb;
+}
+.contenedorExplore{
+    width: 40%;
+    margin-left: 3.5rem;
+
+}
+
+.about{
+
+    padding-bottom: 3,5rem;
+}
+.servicios{
+    background-color: #f0f4f6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedorServicios{
+    display: flex;
+    width: 70%;
+}
+.contenedorTextoServicios{
+    margin-left: 1rem;
+}
+.colorIcono{
+    font-size: 1,5rem;
+    background-color: #2bacb9;
+    padding: 15px;
+    height: 30px;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 25%;
+}
+@media(max-width:900px){
+    img{
+        flex-basis: 50%;  }
+}
+@media(max-width:500px){
+    img{
+        flex-basis: 100%;  }
+}
